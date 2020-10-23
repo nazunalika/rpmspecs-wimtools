@@ -46,6 +46,9 @@ Requires:       fuse
 %package -n libwim15-devel
 Summary:        Development files for wimlib
 
+%description -n libwim15
+wiblib libraries required for wimtools
+
 %description -n libwim15-devel
 Development files for wimlib
 
