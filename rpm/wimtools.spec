@@ -87,7 +87,7 @@ rm -rf %{buildroot}
 
 %files -n libwim15
 %defattr(-, root, root, -)
-%doc COPYING COPYING.GPLv3 COPYING.LGPLv3 COPYING.CC0
+%doc COPYING COPYING.GPLv3 COPYING.LGPLv3
 %{_libdir}/libwim.so.*
 
 %files -n libwim15-devel
