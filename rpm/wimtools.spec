@@ -82,7 +82,7 @@ rm -rf %{buildroot}
 %files
 %defattr(-, root, root, -)
 %doc %{_mandir}/man1/*.1.gz
-%doc README COPYING COPYING.GPLv3
+%doc COPYING COPYING.GPLv3
 %{_bindir}/*
 
 %files -n libwim15
