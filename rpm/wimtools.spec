@@ -1,7 +1,7 @@
 # Global settings
 %global major_version 1
-%global minor_version 13
-%global micro_version 5
+%global minor_version 14
+%global micro_version 1
 
 Name:           wimtools
 Version:        %{major_version}.%{minor_version}.%{micro_version}
@@ -95,6 +95,9 @@ rm -rf %{buildroot}
 %exclude %{_libdir}/libwim.la
 
 %changelog
+* Mon Jul 10 2023 Louis Abel <tucklesepk@gmail.com> - 1.14.1-1
+- Update to latest version
+
 * Sat Feb 26 2022 Louis Abel <tucklesepk@gmail.com> - 1.13.5-1
 - Update to latest version
 
